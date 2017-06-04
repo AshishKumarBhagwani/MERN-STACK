@@ -1,0 +1,19 @@
+#title{
+  color:yellow;
+}
+#body{
+  background-image: url('down.jpg');
+}
+#list{
+
+  margin-top: 200px;
+}
+#container{
+  margin-top: 105px;
+  border-style: ridge;
+  background-color: #bdc3c7;
+  height: auto;
+}
+.btn{
+  margin-top: 60px;
+}

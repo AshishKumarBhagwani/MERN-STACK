@@ -1,0 +1,30 @@
+/*PRE-REQUISIT*/
+
+
+/*HEADER CSS STARTS*/
+div .col-md-8{
+  margin-top: 80px;
+}
+
+/*HEADER CSS ENDS*/
+
+/*SECTION CSS STARTS*/
+section div .mainDiv{
+  background-image: url("b.jpg");
+  height: 200px;
+}
+section div .header{
+  margin: auto ;
+  max-width: 50em;
+}
+section #colo{
+  background-color: #FFAD44;
+  height: 95px;
+
+}
+section div form{
+  margin: auto;
+  padding-top: 33px;
+}
+
+/*SECTION CSS ENDS*/

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Task</title>
+    <link rel="stylesheet" href="E:\MERN Stack\bootstrap\css\bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="body">
+    <div class="row" >
+      <div id="title" class="col-md-7 col-md-offset-5">
+        <h1><b>ToDo List</b></h1>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="list" class="col-md-4 col-md-offset-2">
+            <input type="text" id="input" class="form-control mb-2 mr-sm-2 mb-sm-0">
+            <button type="button" onclick="addTodo()" class="btn btn-success">Add Todo</button>
+            <button type="button" onclick="load()" class="btn btn-info">Show List</button>
+          </div>
+          <div class="col-md-5 col-md-offset-1" id="container">
+          </div>
+        </div>
+        <div class="col-md-10 col-md-offset-1 btn">
+          <button type="button" onclick="remove()" class="form-control mb-2 mr-sm-2 mb-sm-0 btn btn-default btn-sm btn btn-danger">Clear List</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
