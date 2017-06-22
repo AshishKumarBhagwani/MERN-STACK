@@ -1,0 +1,55 @@
+/*PRE REQUISITS*/
+
+/*HEADER CSS STRARTS HERE*/
+#logo{
+  display: inline-block;
+  margin-top: 00px;
+  margin-left: 25px;
+}
+.logo{
+  background-color: #44E3FF;
+}
+.navigation{
+  background-color: #0690A8  ;
+}
+.right{
+  float: right;
+  display: inline-block;
+}
+li{
+  margin-left: 50px;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 25px;
+}
+a{
+  color: white;
+
+}
+a:hover{
+  background-color:#44E3FF;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/*HEADER CSS ENDS HERE*/
+
+
+/*SECTION CSS STARTS HERE*/
+section{
+  margin: auto;
+  max-width: 85em;
+
+}
+/*SECTION CSS ENDS HERE*/
+
+
+/*FOOTER CSS STARTS HERE*/
+footer{
+  background-color: #44E3FF;
+}
+.foot{
+  margin: auto;
+  max-width: 85em;
+}
+/*FOOTER CSS ENDS HERE*/

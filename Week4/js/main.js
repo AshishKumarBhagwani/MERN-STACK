@@ -21,8 +21,6 @@ function addTodo(){
     }
   }
 
-
-
 function load(){
   // Retrieve
   document.getElementById("container").innerHTML =" ";

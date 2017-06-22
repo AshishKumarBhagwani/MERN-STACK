@@ -1,0 +1,49 @@
+body{
+  background-image: url("../images/m_player.jpg");
+  background-size: 100% 100%;
+
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Josefin Slab', serif;
+}
+img{
+  height : 100px;
+  width : 100px;
+}
+p{
+  width: 50%;
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: 'Josefin Slab',serif;
+}
+#container{
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: rgba(65,50,25,0);
+  margin-top: 4%;
+  background-color: rgba(68,57,39,0.80);
+}
+.list{
+  padding-left: 30px;
+  margin-top: 2%;
+}
+.list:hover{
+  background-color:rgba(150,65,100,1.00);
+}
+a button{
+  text-decoration: none;
+}
+.btn {
+  font-family: serif;
+  border-radius:10px;
+}
+a :hover{
+  background-color:#ffff;
+	border-radius:20px;
+  color: green;
+  font-size: 20px;
+  font-family: 'Josefin Slab', serif;
+}

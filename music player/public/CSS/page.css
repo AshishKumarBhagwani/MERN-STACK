@@ -1,0 +1,32 @@
+#wrapper{
+  background: url('../images/page3.jpg') no-repeat;
+  background-size: 100% 2000px;
+}
+#container2{
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: rgba(65,50,25,0.5);
+  margin-top: 4%;
+}
+img{
+  width: 100%;
+}
+.btn {
+  font-family: serif;
+  border-radius:10px;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  /*background-color:rgba(40,20,30,0.5);*/
+}
+
+a :hover{
+  text-decoration: none;
+	border-radius:20px;
+  background-color : white;
+  font-size: 50px;
+  font-family: 'Josefin Slab', serif;
+}
+#titlediv{
+  font-family: 'Josefin Slab', serif;
+}
